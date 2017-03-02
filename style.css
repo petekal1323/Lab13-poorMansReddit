@@ -1,0 +1,119 @@
+body{
+  background: gray;
+}
+
+h1{
+  font-size: 48px;
+    text-shadow: 10px 6px 11px #555;
+    color: palegoldenrod;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+  width: 80%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.title{
+  text-align: center;
+}
+
+
+.link{
+border: solid 2px black;
+border-radius: 10px;
+box-shadow: 3px 5px 15px #333;
+margin: 13px auto;
+width: 80%;
+padding: 10px;
+overflow: auto;
+clear: both;
+position: relative;
+background: palegoldenrod;
+}
+
+.pic{
+  float: right;
+  position: absolute;
+  top: 10px;
+  right:50PX;
+
+}
+
+/*****************************
+MEDIA QUERIES
+*****************************/
+@media (max-width: 990px) {
+  .pic{
+    float: right;
+    width: 55%;
+    margin: 0px auto;
+    position: relative;
+    bottom: 5em;
+    right: 1em;
+
+  }
+  h2{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+
+@media (max-width: 790px){
+  .pic{
+
+    float: right;
+    width: 55%;
+    margin: 0 3%;
+    position: relative;
+    bottom: 5em;
+    right: 1em;
+
+  }
+  h2{
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 680px){
+  .pic{
+    5px 5% 15px;
+  }
+}
+
+
+@media (max-width: 540px){
+  .pic{
+  margin:5px 10% 15px;
+  }
+}
+
+@media (max-width: 400px){
+  .pic{
+    margin: 0 10% 10px;
+  }
+  h1{
+    margin: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
